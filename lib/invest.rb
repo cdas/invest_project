@@ -1,0 +1,1 @@
+require 'invest/investment'

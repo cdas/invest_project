@@ -1,0 +1,8 @@
+Feature: Portfoliomanager
+  Mit dem Portfoliomanager soll man verschiedene Invesments eingeben und die Rendite vergleichen koennen
+  
+  Scenario: one investment
+    Given no investment exists
+    When I press add investment
+    Then the investment list have 1 item
+    And the item has a rendite

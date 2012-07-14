@@ -1,0 +1,11 @@
+Given /^I have entered (\d+) as input$/ do |input|
+	#Invest::Rendite.new.Start input
+end
+
+And /^I have entered (\d+) as output$/ do |output|
+	
+end
+
+Then /^the result should be (\d+)%$/ do |arg1|
+	
+end
