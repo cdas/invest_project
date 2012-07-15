@@ -1,0 +1,9 @@
+require 'spec_helper'
+
+module Invest
+	describe Investment do
+		describe "#rendite" do
+			it "sends a number"
+		end
+	end
+end

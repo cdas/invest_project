@@ -9,3 +9,5 @@ end
 Then /^I should see the yield of (\d+)$/ do |x|
 	x.to_i.should == @yield.to_int
 end
+
+                      
